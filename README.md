@@ -21,7 +21,7 @@ HTML5
 CSS3
 
 JavaScript
-<h1>How It Works<h1>
+<h1>How It Works</h1>
 The cache uses a doubly linked list + hashmap to support O(1) get() and put().
 
 Most recently used entries are moved to the front of the list.
