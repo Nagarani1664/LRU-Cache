@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LRU CACHE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>LRU CACHE</h1>
+
+  <label for="capacity">Cache Capacity:</label>
+  <input type="number" id="capacity" value="3" min="1">
+  <button onclick="initCache()">Initialize</button>
+
+  <hr>
+
+  <h3>Put</h3>
+  <input type="number" id="put-key" placeholder="Key">
+  <input type="number" id="put-value" placeholder="Value">
+  <button onclick="putItem()">PUT</button>
+
+  <h3>Get</h3>
+  <input type="number" id="get-key" placeholder="Key">
+  <button onclick="getItem()">GET</button>
+  <p id="get-result"></p>
+
+  <div id="cache-display"></div>
+
+  <script src="lru.js"></script>
+</body>
+</html>
